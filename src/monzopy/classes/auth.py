@@ -2,8 +2,8 @@ import json
 
 from requests_oauthlib import OAuth2Session
 
-from functions.util_functions import save_token_to_file
-from .error import (
+from monzopy.functions.util_functions import save_token_to_file
+from monzopy.classes.error import (
     BadRequestError,
     UnauthorizedError,
     ForbiddenError,
