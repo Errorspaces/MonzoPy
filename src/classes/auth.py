@@ -3,7 +3,7 @@ import json
 from requests_oauthlib import OAuth2Session
 
 from functions.util_functions import save_token_to_file
-from monzo.error import (
+from .error import (
     BadRequestError,
     UnauthorizedError,
     ForbiddenError,
